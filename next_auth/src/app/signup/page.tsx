@@ -48,6 +48,7 @@ const SignupPage = () => {
                 placeholder='username'
                 className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black"
             />
+            <label htmlFor="email">Email</label>
             <input
                 id='email'
                 value={user.email}
@@ -55,6 +56,7 @@ const SignupPage = () => {
                 placeholder='email'
                 className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black"
             />
+            <label htmlFor="password">Password</label>
             <input
                 id='password'
                 value={user.password}
